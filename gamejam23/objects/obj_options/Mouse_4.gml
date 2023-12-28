@@ -9,5 +9,6 @@ event_inherited();
 /// @DnDArgument : "xpos" "300"
 /// @DnDArgument : "ypos" "300"
 /// @DnDArgument : "objectid" "oDialog_Options"
+/// @DnDArgument : "layer" ""Instances_1""
 /// @DnDSaveInfo : "objectid" "oDialog_Options"
-instance_create_layer(300, 300, "Instances", oDialog_Options);
+instance_create_layer(300, 300, "Instances_1", oDialog_Options);

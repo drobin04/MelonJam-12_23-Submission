@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "tilebutt",
-  "bbox_bottom": 63,
+  "name": "unfinished_gremlin",
+  "bbox_bottom": 605,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 585,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c38607f0-e489-4708-9c7c-a1bb098c076d",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"b69a1966-20fd-4bbf-bbd7-77d8708a5b53",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 606,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a602ede6-e656-49f1-af77-a02722e1c6a0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b49ff99c-72b8-4306-baec-3f53a314f737","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Archive_to_delete_stuff",
+    "path": "folders/Archive_to_delete_stuff.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "tilebutt",
+    "name": "unfinished_gremlin",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c38607f0-e489-4708-9c7c-a1bb098c076d","path":"sprites/tilebutt/tilebutt.yy",},},},"Disabled":false,"id":"74dcfdea-6fc7-4b20-b00e-647e438b2c77","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b69a1966-20fd-4bbf-bbd7-77d8708a5b53","path":"sprites/unfinished_gremlin/unfinished_gremlin.yy",},},},"Disabled":false,"id":"90b88d88-8e58-4d12-8f3a-a80f62a6b362","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 586,
 }

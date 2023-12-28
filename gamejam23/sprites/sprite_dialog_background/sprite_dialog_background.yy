@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Archive_to_delete_stuff",
+    "path": "folders/Archive_to_delete_stuff.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

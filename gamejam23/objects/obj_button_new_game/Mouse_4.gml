@@ -9,17 +9,18 @@ event_inherited();
 /// @DnDArgument : "xpos" "200"
 /// @DnDArgument : "ypos" "670"
 /// @DnDArgument : "objectid" "oDialog_Initial_Play_Button_Pressed"
+/// @DnDArgument : "layer" ""Instances_1""
 /// @DnDSaveInfo : "objectid" "oDialog_Initial_Play_Button_Pressed"
-instance_create_layer(200, 670, "Instances", oDialog_Initial_Play_Button_Pressed);
+instance_create_layer(200, 670, "Instances_1", oDialog_Initial_Play_Button_Pressed);
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2B583D6E
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)cursor_sprite = spr_cursor$(13_10)window_set_cursor(cr_none)$(13_10)object_set_sprite( id, "startbutt_exploded"); "
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)cursor_sprite = spr_cursor$(13_10)window_set_cursor(cr_none)$(13_10)sprite_index = startbutt_exploded; "
 /// @description Execute Code
 cursor_sprite = spr_cursor
 window_set_cursor(cr_none)
-object_set_sprite( id, "startbutt_exploded");
+sprite_index = startbutt_exploded;
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
@@ -31,8 +32,8 @@ audio_play_sound(intro_snd, 0, 0, 1.0, undefined, 1.0);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 33F41414
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)popped = true;$(13_10)$(13_10)bring_lizard_into_room();"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)popped = true;$(13_10)$(13_10)bring_lizard_into_room(890,250);"
 /// @description Execute Code
 popped = true;
 
-bring_lizard_into_room();
+bring_lizard_into_room(890,250);

@@ -1,20 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oDialog_Options",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,},
-  ],
+  "name": "options_mouse",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Objects/Dialogs.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
-  "parentObjectId": {
-    "name": "oDialogParent",
-    "path": "objects/oDialogParent/oDialogParent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "options_menu",
-    "path": "sprites/options_menu/options_menu.yy",
+    "name": "options_hidden_button_sprite",
+    "path": "sprites/options_hidden_button_sprite/options_hidden_button_sprite.yy",
   },
   "spriteMaskId": null,
   "visible": true,

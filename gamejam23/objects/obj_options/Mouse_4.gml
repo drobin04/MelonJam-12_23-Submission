@@ -6,9 +6,7 @@ event_inherited();
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 2FCEBEF6
-/// @DnDArgument : "xpos" "300"
-/// @DnDArgument : "ypos" "300"
-/// @DnDArgument : "objectid" "oDialog_Options"
+/// @DnDArgument : "objectid" "obj_Options_2"
 /// @DnDArgument : "layer" ""Instances_1""
-/// @DnDSaveInfo : "objectid" "oDialog_Options"
-instance_create_layer(300, 300, "Instances_1", oDialog_Options);
+/// @DnDSaveInfo : "objectid" "obj_Options_2"
+instance_create_layer(0, 0, "Instances_1", obj_Options_2);

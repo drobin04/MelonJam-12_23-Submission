@@ -28,6 +28,8 @@
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mouse_detection_radius","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"275","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"menu_x","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"800","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"menu_y","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"50","varType":1,},
   ],
   "solid": false,
   "spriteId": {

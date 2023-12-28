@@ -1,15 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "options_mouse",
+  "name": "options_screen",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "options_buttons",
+    "path": "folders/Objects/options_buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

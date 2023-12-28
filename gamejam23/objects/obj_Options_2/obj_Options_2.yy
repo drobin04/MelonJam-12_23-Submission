@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "obj_Options_2",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -25,7 +25,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yoffset_mouse","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"25","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yoffset_screen","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"125","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yoffset_game","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"225","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yoffset_other","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"325","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"yoffset_sound","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"425","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "options_menu",

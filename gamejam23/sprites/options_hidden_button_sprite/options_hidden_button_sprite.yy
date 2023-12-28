@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "options_hidden_button_sprite",
-  "bbox_bottom": 107,
+  "bbox_bottom": 87,
   "bbox_left": 0,
-  "bbox_right": 183,
+  "bbox_right": 159,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 108,
+  "height": 88,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e38dde15-b8be-4888-ba38-5ac55f7d5ec7","blendMode":0,"displayName":"default","isLocked":false,"opacity":40.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 184,
+  "width": 160,
 }

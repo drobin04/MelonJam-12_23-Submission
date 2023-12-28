@@ -22,6 +22,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Dummy_Enemy","order":3,"path":"sprites/Dummy_Enemy/Dummy_Enemy.yy",},
+    {"name":"options_slime_angry","order":9,"path":"sprites/options_slime_angry/options_slime_angry.yy",},
     {"name":"startbutt","order":5,"path":"sprites/startbutt/startbutt.yy",},
     {"name":"obj_exit_button","order":1,"path":"objects/obj_exit_button/obj_exit_button.yy",},
     {"name":"dlg_play_game","order":1,"path":"objects/dlg_play_game/dlg_play_game.yy",},
@@ -35,5 +36,6 @@
     {"name":"obj_button_parent","order":2,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"oDialog_Options","order":1,"path":"objects/oDialog_Options/oDialog_Options.yy",},
     {"name":"spr_cursor","order":2,"path":"sprites/spr_cursor/spr_cursor.yy",},
+    {"name":"options_slime_happy","order":8,"path":"sprites/options_slime_happy/options_slime_happy.yy",},
   ],
 }

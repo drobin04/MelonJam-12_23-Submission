@@ -19,3 +19,17 @@ instance_create_layer(200, 670, "Instances", oDialog_Initial_Play_Button_Pressed
 /// @description Execute Code
 cursor_sprite = spr_cursor
 window_set_cursor(cr_none)
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 637981D8
+/// @DnDArgument : "soundid" "intro_snd"
+/// @DnDSaveInfo : "soundid" "intro_snd"
+audio_play_sound(intro_snd, 0, 0, 1.0, undefined, 1.0);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 33F41414
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)popped = true;"
+/// @description Execute Code
+popped = true;

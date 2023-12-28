@@ -39,6 +39,7 @@
   },
   "resources": [
     {"id":{"name":"Dummy_Enemy","path":"sprites/Dummy_Enemy/Dummy_Enemy.yy",},},
+    {"id":{"name":"options_slime_angry","path":"sprites/options_slime_angry/options_slime_angry.yy",},},
     {"id":{"name":"startbutt","path":"sprites/startbutt/startbutt.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"obj_exit_button","path":"objects/obj_exit_button/obj_exit_button.yy",},},
@@ -49,6 +50,7 @@
     {"id":{"name":"sprite_dialog_background","path":"sprites/sprite_dialog_background/sprite_dialog_background.yy",},},
     {"id":{"name":"oDialog_Initial_Play_Button_Pressed","path":"objects/oDialog_Initial_Play_Button_Pressed/oDialog_Initial_Play_Button_Pressed.yy",},},
     {"id":{"name":"exitbutt","path":"sprites/exitbutt/exitbutt.yy",},},
+    {"id":{"name":"intro_snd","path":"sounds/intro_snd/intro_snd.yy",},},
     {"id":{"name":"oDialogParent","path":"objects/oDialogParent/oDialogParent.yy",},},
     {"id":{"name":"options","path":"sprites/options/options.yy",},},
     {"id":{"name":"sprite_Play_Button_Manually_drawn","path":"sprites/sprite_Play_Button_Manually_drawn/sprite_Play_Button_Manually_drawn.yy",},},
@@ -57,6 +59,7 @@
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"oDialog_Options","path":"objects/oDialog_Options/oDialog_Options.yy",},},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},},
+    {"id":{"name":"options_slime_happy","path":"sprites/options_slime_happy/options_slime_happy.yy",},},
     {"id":{"name":"parent_enemy","path":"objects/parent_enemy/parent_enemy.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
   ],

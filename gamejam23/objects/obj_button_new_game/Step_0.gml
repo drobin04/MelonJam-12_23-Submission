@@ -4,7 +4,7 @@
 
 
 // Step Event code for the object
-
+if (!popped) {
 
 if (distance_to_point(mouse_x, mouse_y) < 400) {
     // Calculate the direction away from the mouse
@@ -63,4 +63,6 @@ var direction_away_from_mouse = point_direction(x, y, mouse_x, mouse_y) + 180;
     // Move the object to the new position
     x = new_x;
     y = new_y;
+}
+
 }

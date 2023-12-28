@@ -14,8 +14,11 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 0B86B157
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "30"
+/// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" "text"
-draw_text(0, 0, string(text) + "");
+draw_text(x + 0, y + 30, string(text) + "");
 
 /// @DnDAction : YoYo Games.Drawing.Set_Alignment
 /// @DnDVersion : 1.1

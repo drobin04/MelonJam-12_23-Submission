@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Archive_to_delete_stuff",
+    "path": "folders/Archive_to_delete_stuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,

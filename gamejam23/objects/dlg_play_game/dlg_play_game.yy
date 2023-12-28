@@ -8,8 +8,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_message_to_player","path":"objects/obj_message_to_player/obj_message_to_player.yy",},"propertyId":{"name":"text","path":"objects/obj_message_to_player/obj_message_to_player.yy",},"value":"Wh.... What's happening... No... What did you do?!",},
   ],
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Objects/Dialogs.yy",
+    "name": "Archive_to_delete_stuff",
+    "path": "folders/Archive_to_delete_stuff.yy",
   },
   "parentObjectId": {
     "name": "obj_message_to_player",

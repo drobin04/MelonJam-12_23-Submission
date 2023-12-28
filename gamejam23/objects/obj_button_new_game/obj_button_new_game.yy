@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_button_parent",
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprite_Play_Button_Manually_drawn",
-    "path": "sprites/sprite_Play_Button_Manually_drawn/sprite_Play_Button_Manually_drawn.yy",
+    "name": "startbutt",
+    "path": "sprites/startbutt/startbutt.yy",
   },
   "spriteMaskId": null,
   "visible": true,

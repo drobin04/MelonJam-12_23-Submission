@@ -8,9 +8,9 @@ event_inherited();
 /// @DnDHash : 6B7D97F9
 /// @DnDArgument : "xpos" "200"
 /// @DnDArgument : "ypos" "670"
-/// @DnDArgument : "objectid" "dlg_play_game"
-/// @DnDSaveInfo : "objectid" "dlg_play_game"
-instance_create_layer(200, 670, "Instances", dlg_play_game);
+/// @DnDArgument : "objectid" "oDialog_Initial_Play_Button_Pressed"
+/// @DnDSaveInfo : "objectid" "oDialog_Initial_Play_Button_Pressed"
+instance_create_layer(200, 670, "Instances", oDialog_Initial_Play_Button_Pressed);
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1

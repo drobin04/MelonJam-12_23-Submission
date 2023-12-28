@@ -15,6 +15,7 @@ instance_create_layer(200, 670, "Instances", dlg_play_game);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2B583D6E
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)cursor_sprite = spr_cursor"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)cursor_sprite = spr_cursor$(13_10)window_set_cursor(cr_none)"
 /// @description Execute Code
 cursor_sprite = spr_cursor
+window_set_cursor(cr_none)

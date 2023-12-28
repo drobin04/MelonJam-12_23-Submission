@@ -2,29 +2,26 @@
 // You can write your code in this editor
 
 
-
-// Step Event code for the object
 if (!global.popped) {
 
-if (distance_to_point(mouse_x, mouse_y) < 400) {
+if (distance_to_point(mouse_x, mouse_y) < mouse_detection_radius) {
     // Calculate the direction away from the mouse
     var direction_away_from_mouse = point_direction(x, y, mouse_x, mouse_y) + 180;
 
-    // Pick a random direction
+    // random direction
     var random_direction = irandom(359);
-// Step Event code for the object
+
 var distance_to_mouse = distance_to_point(mouse_x, mouse_y);
 var max_move_distance = 5;
 var min_move_distance = 1;
 
 // Calculate the move distance based on the proximity of the mouse
-var move_distance = lerp(min_move_distance, max_move_distance, 1 - clamp(distance_to_mouse / 400, 0, 1));
+var move_distance = lerp(min_move_distance, max_move_distance, 1 - clamp(distance_to_mouse / mouse_detection_radius, 0, 1));
 
 // Calculate the direction away from the mouse
 var direction_away_from_mouse = point_direction(x, y, mouse_x, mouse_y) + 180;
-    // Initialize the best direction to the random direction
-    var best_direction = random_direction;
-    var max_distance = 0;
+var best_direction = random_direction;
+var max_distance = 0;
 
     // Loop through directions to find the best one
     for (var i = 0; i < 360; i++) {

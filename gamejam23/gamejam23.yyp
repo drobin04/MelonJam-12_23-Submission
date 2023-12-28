@@ -58,6 +58,7 @@
     {"id":{"name":"oDialog_Initial_Play_Button_Pressed","path":"objects/oDialog_Initial_Play_Button_Pressed/oDialog_Initial_Play_Button_Pressed.yy",},},
     {"id":{"name":"exitbutt","path":"sprites/exitbutt/exitbutt.yy",},},
     {"id":{"name":"intro_snd","path":"sounds/intro_snd/intro_snd.yy",},},
+    {"id":{"name":"yimp_walking_whistling","path":"sprites/yimp_walking_whistling/yimp_walking_whistling.yy",},},
     {"id":{"name":"oDialogParent","path":"objects/oDialogParent/oDialogParent.yy",},},
     {"id":{"name":"obj_lizard_guy","path":"objects/obj_lizard_guy/obj_lizard_guy.yy",},},
     {"id":{"name":"options","path":"sprites/options/options.yy",},},

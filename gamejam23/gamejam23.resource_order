@@ -16,5 +16,9 @@
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_message_to_player","order":2,"path":"objects/obj_message_to_player/obj_message_to_player.yy",},
+    {"name":"sprite_dialog_background","order":1,"path":"sprites/sprite_dialog_background/sprite_dialog_background.yy",},
+    {"name":"obj_button_new_game","order":1,"path":"objects/obj_button_new_game/obj_button_new_game.yy",},
+  ],
 }

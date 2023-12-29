@@ -28,6 +28,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Dummy_Enemy","order":1,"path":"sprites/Dummy_Enemy/Dummy_Enemy.yy",},
+    {"name":"zomb_charmed","order":20,"path":"sprites/zomb_charmed/zomb_charmed.yy",},
     {"name":"options_slime_angry","order":7,"path":"sprites/options_slime_angry/options_slime_angry.yy",},
     {"name":"options_menu","order":2,"path":"sprites/options_menu/options_menu.yy",},
     {"name":"startbutt","order":3,"path":"sprites/startbutt/startbutt.yy",},
@@ -42,6 +43,7 @@
     {"name":"startbutt_exploded","order":5,"path":"sprites/startbutt_exploded/startbutt_exploded.yy",},
     {"name":"test_enemy","order":7,"path":"objects/test_enemy/test_enemy.yy",},
     {"name":"spider","order":3,"path":"objects/spider/spider.yy",},
+    {"name":"zombie_alive","order":21,"path":"sprites/zombie_alive/zombie_alive.yy",},
     {"name":"Draw_Menu_Options_item","order":3,"path":"scripts/Draw_Menu_Options_item/Draw_Menu_Options_item.yy",},
     {"name":"sprite_dialog_background","order":3,"path":"sprites/sprite_dialog_background/sprite_dialog_background.yy",},
     {"name":"oDialog_Initial_Play_Button_Pressed","order":2,"path":"objects/oDialog_Initial_Play_Button_Pressed/oDialog_Initial_Play_Button_Pressed.yy",},

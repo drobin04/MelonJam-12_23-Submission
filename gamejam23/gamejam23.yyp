@@ -47,6 +47,7 @@
   "resources": [
     {"id":{"name":"Dummy_Enemy","path":"sprites/Dummy_Enemy/Dummy_Enemy.yy",},},
     {"id":{"name":"Sword_Pickup","path":"objects/Sword_Pickup/Sword_Pickup.yy",},},
+    {"id":{"name":"zomb_charmed","path":"sprites/zomb_charmed/zomb_charmed.yy",},},
     {"id":{"name":"options_slime_angry","path":"sprites/options_slime_angry/options_slime_angry.yy",},},
     {"id":{"name":"options_menu","path":"sprites/options_menu/options_menu.yy",},},
     {"id":{"name":"startbutt","path":"sprites/startbutt/startbutt.yy",},},
@@ -65,6 +66,7 @@
     {"id":{"name":"startbutt_exploded","path":"sprites/startbutt_exploded/startbutt_exploded.yy",},},
     {"id":{"name":"test_enemy","path":"objects/test_enemy/test_enemy.yy",},},
     {"id":{"name":"spider","path":"objects/spider/spider.yy",},},
+    {"id":{"name":"zombie_alive","path":"sprites/zombie_alive/zombie_alive.yy",},},
     {"id":{"name":"Draw_Menu_Options_item","path":"scripts/Draw_Menu_Options_item/Draw_Menu_Options_item.yy",},},
     {"id":{"name":"sprite_dialog_background","path":"sprites/sprite_dialog_background/sprite_dialog_background.yy",},},
     {"id":{"name":"oDialog_Initial_Play_Button_Pressed","path":"objects/oDialog_Initial_Play_Button_Pressed/oDialog_Initial_Play_Button_Pressed.yy",},},

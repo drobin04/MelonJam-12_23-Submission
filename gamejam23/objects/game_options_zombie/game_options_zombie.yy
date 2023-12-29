@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "Dummy_Enemy",
-    "path": "sprites/Dummy_Enemy/Dummy_Enemy.yy",
+    "name": "zombie_alive",
+    "path": "sprites/zombie_alive/zombie_alive.yy",
   },
   "spriteMaskId": null,
   "visible": true,

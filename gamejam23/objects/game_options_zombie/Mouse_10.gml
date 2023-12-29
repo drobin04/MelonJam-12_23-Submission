@@ -9,5 +9,6 @@ if (cursor_sprite = sword) {
 
 if(hp <= 0)
 {
-	instance_destroy();
+	sprite_index = zomb_charmed;
+	//instance_destroy();
 }

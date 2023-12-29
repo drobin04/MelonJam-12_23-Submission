@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-// Code to move Object Options around
 if (!global.popped) {
 
 	if (distance_to_point(mouse_x, mouse_y) < mouse_detection_radius) {
@@ -45,21 +44,23 @@ if (!global.popped) {
 	        random_direction = (random_direction + 1) mod 360;
 	    }
 
-	    // Move the object in the best direction
 	    var new_x = x + lengthdir_x(move_distance, best_direction);
 	    var new_y = y + lengthdir_y(move_distance, best_direction);
 
-	    // Check if the new position is too close to the edge of the screen
+	    // Check if new position is too close to the screen
 	    while (new_x < 0 || new_x > room_width || new_y < 0 || new_y > room_height) {
-	        // If it's too close, move away from the wall
+	        // If too close, move away from the wall
 	        best_direction = (best_direction + 180) mod 360;
 	        new_x = x + lengthdir_x(move_distance, best_direction);
 	        new_y = y + lengthdir_y(move_distance, best_direction);
 	    }
 
-	    // Move the object to the new position
+	    // Move to the new position
 	    x = new_x;
 	    y = new_y;
+		//update global vals
+		global.options_x = x;
+global.options_y = y;
 	} // end of if block for checking if distance / mouse detection radius
 
 } // end of if block for global.popped

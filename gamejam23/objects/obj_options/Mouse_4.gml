@@ -12,3 +12,9 @@ event_inherited();
 /// @DnDArgument : "layer" ""Instances_1""
 /// @DnDSaveInfo : "objectid" "obj_Options_2"
 instance_create_layer(menu_x, menu_y, "Instances_1", obj_Options_2);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7C92FED3
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)"
+/// @description Execute Code

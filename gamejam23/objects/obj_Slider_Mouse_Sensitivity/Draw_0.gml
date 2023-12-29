@@ -7,4 +7,4 @@ var knob_amount = global.slider_amount_current / amount_max;
 
 var knob_position_x = x + (sprite_width * knob_amount);
 
-draw_sprite(spr_Knob, 0, knob_position_x, y);
+draw_sprite(spr_Knob, 5, knob_position_x, y);

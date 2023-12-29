@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-show_message("Mouse Options Clicked");
+//show_message("Mouse Options Clicked");
 
 
 // Set mouse sensitivity super slow
@@ -17,3 +17,10 @@ show_message("Mouse Options Clicked");
 
 // but need to ensure that the options objects that register mouse clicks, goes with
 
+
+// Draw Slider
+slider = instance_create_layer(x+mouse_sens_slider_x_offset,y+mouse_sens_slider_y_offset,"instances_1",obj_Slider_Mouse_Sensitivity);
+slider.depth = -10
+DestroyOptionsMenuItems();
+ds_list_add(global.ids_to_destroy_on_options_panel_swap, slider);
+draw_options_menu_item(x+mouse_sens_slider_x_offset,y+mouse_sens_slider_y_offset-32,text_mouse_sens);

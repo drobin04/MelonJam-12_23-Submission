@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "zombie_sword",
-    "path": "sprites/zombie_sword/zombie_sword.yy",
+    "name": "sword",
+    "path": "sprites/sword/sword.yy",
   },
   "spriteMaskId": null,
   "visible": true,

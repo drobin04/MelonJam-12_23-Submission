@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Archive_to_delete_stuff",
+    "path": "folders/Archive_to_delete_stuff.yy",
   },
   "parentObjectId": {
     "name": "parent_enemy",

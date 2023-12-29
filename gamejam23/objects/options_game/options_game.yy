@@ -27,8 +27,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sword_x_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"200","varType":1,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sword_y_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"200","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sword_x_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"285","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"sword_y_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"50","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"zombie_x_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"285","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"zombie_y_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"-275","varType":1,},
   ],
   "solid": false,
   "spriteId": {

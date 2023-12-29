@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if (cursor_sprite = zombie_sword) {
+if (cursor_sprite = sword) {
 	hp += -30	
 	
 }

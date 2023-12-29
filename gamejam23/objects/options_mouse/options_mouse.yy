@@ -26,7 +26,10 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mouse_sens_slider_x_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"188","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"mouse_sens_slider_y_offset","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"40","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "options_hidden_button_sprite",

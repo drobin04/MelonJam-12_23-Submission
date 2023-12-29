@@ -5,5 +5,5 @@
 cursor = cr_none;
 
 amount_max = 100;
-global.slider_amount_current = 60;
+global.slider_amount_current = 0;
 is_being_dragged = false;

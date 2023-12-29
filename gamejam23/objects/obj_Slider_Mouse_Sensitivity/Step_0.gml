@@ -6,7 +6,7 @@ if (is_being_dragged) {
 	
 	if(mouse_x > x) {
 	var xx = abs(x - mouse_x);
-	var amount = xx / sprite_width;
+	amount = (xx / sprite_width)/4;
 	
 	amount = clamp(amount, 0, 1);
 	
@@ -15,5 +15,7 @@ if (is_being_dragged) {
 		global.slider_amount_current = 0;
 		
 	}
-	
+	if (amount >= 80) {
+		finished = true;
+	}
 }

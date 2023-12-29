@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 
-cursor = window_get_cursor();
+//cursor = window_get_cursor();
 
-window_set_cursor(cr_handpoint);
+//window_set_cursor(cr_handpoint);

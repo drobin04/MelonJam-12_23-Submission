@@ -2,7 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Archive_to_delete_stuff","order":17,"path":"folders/Archive_to_delete_stuff.yy",},
-    {"name":"Enemies","order":16,"path":"folders/Enemies.yy",},
+    {"name":"Enemies","order":5,"path":"folders/Objects/Enemies.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
@@ -21,6 +21,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"sprite_variations","order":13,"path":"folders/Sprites/sprite_variations.yy",},
     {"name":"options_buttons","order":4,"path":"folders/Objects/options_buttons.yy",},
+    {"name":"weapons","order":14,"path":"folders/Sprites/weapons.yy",},
+    {"name":"Weapon Pickups","order":6,"path":"folders/Objects/Weapon Pickups.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Dummy_Enemy","order":1,"path":"sprites/Dummy_Enemy/Dummy_Enemy.yy",},
@@ -52,5 +54,6 @@
     {"name":"unfinished_gremlin","order":4,"path":"sprites/unfinished_gremlin/unfinished_gremlin.yy",},
     {"name":"options_slime_happy","order":6,"path":"sprites/options_slime_happy/options_slime_happy.yy",},
     {"name":"options_game","order":3,"path":"objects/options_game/options_game.yy",},
+    {"name":"game_options_zombie","order":2,"path":"objects/game_options_zombie/game_options_zombie.yy",},
   ],
 }

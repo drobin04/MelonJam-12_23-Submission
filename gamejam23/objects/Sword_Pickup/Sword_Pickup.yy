@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "options_mouse",
+  "name": "Sword_Pickup",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "options_buttons",
-    "path": "folders/Objects/options_buttons.yy",
+    "name": "Weapon Pickups",
+    "path": "folders/Objects/Weapon Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "options_hidden_button_sprite",
-    "path": "sprites/options_hidden_button_sprite/options_hidden_button_sprite.yy",
+    "name": "zombie_sword",
+    "path": "sprites/zombie_sword/zombie_sword.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,10 +9,10 @@ mons.sprite_index = sprite_to_use;
     
 mons.target_x = global.options_x;
 mons.target_y = global.options_y;
-mons.speed = 5;
+mons.speed = 9;
 mons.is_moving = true;
 var specificWidth = 64; 
-var specificHeight = 64;
+var specificHeight = 32;
 
 mons.image_xscale = specificWidth / sprite_width;
 mons.image_yscale = specificHeight / sprite_height;

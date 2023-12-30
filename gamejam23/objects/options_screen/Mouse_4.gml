@@ -1,7 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 1F7BE04D
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)depth = -10$(13_10)show_message("screen button pressed");"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)depth = -10$(13_10)//show_message("screen button pressed");$(13_10)DestroyOptionsMenuItems();$(13_10)"
 /// @description Execute Code
 depth = -10
-show_message("screen button pressed");
+//show_message("screen button pressed");
+DestroyOptionsMenuItems();

@@ -24,3 +24,12 @@ slider.depth = -10
 DestroyOptionsMenuItems();
 ds_list_add(global.ids_to_destroy_on_options_panel_swap, slider);
 draw_options_menu_item(x+mouse_sens_slider_x_offset,y+mouse_sens_slider_y_offset-32,text_mouse_sens);
+
+// Draw the slime at the bottom of the screen
+
+draw_options_menu_item(x+slime_x_offset,y+slime_y_offset-32,enemy_slime);
+
+
+// draw another sensitivity bar for SLIME sensitivity
+draw_options_menu_item(x+mouse_sens_slider_x_offset,y+slime_y_offset-95,obj_Slider_Mouse_Sensitivity);
+draw_options_menu_item(x+mouse_sens_slider_x_offset,y+slime_y_offset-95,SLIME_text);

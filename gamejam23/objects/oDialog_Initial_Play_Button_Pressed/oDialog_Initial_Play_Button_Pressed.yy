@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "parentObjectId": {
     "name": "oDialogParent",
